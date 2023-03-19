@@ -1,0 +1,44 @@
+.Slide_left{
+    animation: test both 2s;
+}
+
+@keyframes test {
+    0%{
+        
+    }
+    90%{
+        transform: translateX(-400px);
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+.Show{
+    animation: Show both 0.9s;
+    animation-delay: 0.3s;
+}
+
+@keyframes Show {
+    0%{
+        opacity: 0;
+    }
+    
+}
+
+.W_text{
+    animation: WT 1s both;
+    display: block !important;
+}
+
+@keyframes WT {
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+
+   
+    
+    
+}
