@@ -97,7 +97,7 @@ section {
 }
 
 #warning{
-    width: 43%;
+   width: clamp(215px,14vh,215px);
     height: 10%;
     line-height: 60px;
     margin: auto;
@@ -108,7 +108,7 @@ section {
     text-align: center;
     font-family: "Death";
     background: #bbb;
-    display: none;
+    /* display: none; */
 }
 
 
