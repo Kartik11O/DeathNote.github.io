@@ -22,16 +22,39 @@ function Submit() {
     var P4 = document.getElementById("page4")
 
     if ((one.value.length == 0) || (two.value.length == 0)) {
+        Warn1.classList.remove("W_text_hide")
         Warn1.classList.add("W_text")
+        setTimeout(function(){
+            Warn1.classList.add("W_text_hide")
+
+        },3000)
     }
 
-    else{
+    else {
         P4.style.visibility = "visible"
         P4.classList.add("Show")
     }
 
-
-
-
 }
+
+
+    window.addEventListener("input" , function(){
+
+        var TextS = document.getElementById("Text").value
+        window.localStorage.setItem('Content', JSON.stringify(TextS))
+        
+    })
+
+   
+
+setTimeout(function () {
+    var test = JSON.parse(localStorage.getItem('Content'))
+    document.getElementById("Text").value = test
+    
+}, 1000)
+
+
+
+
+
 
