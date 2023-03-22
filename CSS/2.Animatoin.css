@@ -57,12 +57,6 @@
     
 }
 
-@media  (max-width:600px){
-    html{
-        font-size: 90%;
-    }
-}
-
 .animation{
     animation: 1.5s both Ca;
 }
@@ -74,3 +68,4 @@
     }
     
 }
+

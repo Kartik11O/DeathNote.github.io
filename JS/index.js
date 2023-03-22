@@ -54,3 +54,9 @@ setTimeout(function () {
 }, 1000)
 
 
+
+window.addEventListener("focus" , function(){
+    document.getElementById("container_phone").classList.add("Phone_C")
+})
+
+

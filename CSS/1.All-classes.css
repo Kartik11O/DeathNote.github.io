@@ -90,6 +90,7 @@ section {
     border: none;
     transition: 0.3s;
     cursor: pointer;
+    color: #000;
 }
 #btn_s:hover{
     background-color:#28282B;
