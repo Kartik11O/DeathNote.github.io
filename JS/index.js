@@ -70,14 +70,3 @@ function Hide() {
    page5.classList.add("Show")
 
     }
-
-
-function Show_H() {
-
-    let page5 = document.getElementById("page5")
-
-    page5.style.visibility = "hidden"
-    page5.classList.remove("Show")
- 
-
-}
