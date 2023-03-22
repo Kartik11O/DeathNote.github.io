@@ -1,7 +1,9 @@
 function Page1() {
 
     document.getElementById("page1").classList.add("Slide_left")
+    document.getElementById("page2").style.visibility = "visible"
     document.getElementById("page2").classList.add("Show")
+
 
 }
 function Page2() {
@@ -60,3 +62,6 @@ window.addEventListener("focus" , function(){
 })
 
 
+function Start() {
+    window.location.reload();
+    }
