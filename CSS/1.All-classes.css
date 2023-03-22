@@ -132,7 +132,7 @@ section {
 }
 
 
-#page2, #page3,#page4{
+#page2, #page3,#page4,#page5{
     visibility: hidden;
     
     }
@@ -155,4 +155,11 @@ section {
 ::-webkit-scrollbar-thumb {
     background: #000;
     border-radius: 13px;
+}
+
+#page5{
+    font-size: 4rem;
+    text-align: center;
+    line-height: 13rem;
+    font-family: "Death";
 }
