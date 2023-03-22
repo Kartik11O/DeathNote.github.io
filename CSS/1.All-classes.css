@@ -124,20 +124,34 @@ section {
     padding-top: 0%;
     font-size: 1.7rem;
     font-family: "Death";
-    background-color: transparent;
-}
-#page4::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
     background: linear-gradient(transparent, transparent 28px, #000000 28px);
     background-size: 30px 29px;
     background-color: #fff;
-    z-index: 1;
+    background-attachment:local;
 }
+
 
 #page3,#page4{
     visibility: hidden;
     
     }
+
+    /* #page1,#page2,#page3{
+        display: none;
+    } */
+
+    /* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 13px;
+}
