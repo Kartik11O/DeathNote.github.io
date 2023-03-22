@@ -122,7 +122,6 @@ section {
     resize: none;
     outline: none;
     line-height: 29px;
-    padding-top: 0%;
     font-size: 1.7rem;
     font-family: "Death";
     background: linear-gradient(transparent, transparent 28px, #000000 28px);
@@ -152,13 +151,3 @@ section {
     border-radius: 13px;
 }
 
-#page5{
-    position: absolute;
-    font-size: 4rem;
-    text-align: center;
-    line-height: 13rem;
-    font-family: "Death";
-    width: 101%;
-    height: 101%;
-    background-color: #000;
-}
